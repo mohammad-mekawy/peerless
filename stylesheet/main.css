@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "ZefaniStencil";
+    src: url(fonts/ZefaniStencil-Regular.otf);
+}
+
+body {
+    font-family: "ZefaniStencil";
+}
+
+#mainnav .menu>li>a {
+    padding-right: 25px;
+    font-size: 19px;
+}
+
+.btn-danger {
+    line-height: 33px !important;
+    padding: 7px 30px !important;
+    border-radius: 30px !important;
+}
+
+.btn-danger {
+    background-color: blueviolet !important;
+    border: none;
+}
+
+@media (min-width: 992px) {
+    .btn-danger:hover {
+        background-color: #f3fcfd !important;
+        border: 0px;
+    }
+}
+
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.btn-danger:not(:disabled):not(.disabled).active:focus,
+.show>.btn-danger.dropdown-toggle:focus {
+    border: 0px;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.nav-sign {
+    margin-left: 108px;
+}
+
+.logo-img {
+    vertical-align: baseline !important;
+}
+
+.modal-backdrop {
+    z-index: 0;
+}
+
+header .modal-dialog {
+    top: 30%;
+}
+
+.overlay {
+    height: inherit;
+    position: relative;
+    background: #00000054;
+    z-index: 1;
+}
+
+
+/* about us start*/
+
+.best-business-type1 .content .title {
+    font-family: "ZefaniStencil" !important;
+}
+
+.modal-bio p {
+    font-family: "ZefaniStencil" !important;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    color: #966a88;
+}
+
+.modal-bio .modal-content {
+    border-radius: 20px;
+}
+
+.modal-bio .modal-body {
+    background: #fcfcfd;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.modal-bio .modal-dialog {
+    top: 20%;
+}
+
+.modal-bio .v-cover {
+    border-radius: 45px;
+}
+
+
+/* about us end */
+
+
+/* our services start */
+
+.nav-custom .modal.show .modal-dialog {
+    top: 30%;
+}
+
+.nav-custom .images-box-portfolio {
+    cursor: pointer;
+}
+
+
+/* our services end */
