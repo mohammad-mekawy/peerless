@@ -74,7 +74,7 @@ header .modal-dialog {
     font-size: 1.5rem;
     line-height: 1.5rem;
     letter-spacing: 1px;
-    color: #966a88;
+    color: #fff;
 }
 
 .modal-bio .modal-content {
@@ -82,7 +82,7 @@ header .modal-dialog {
 }
 
 .modal-bio .modal-body {
-    background: #fcfcfd;
+    background: linear-gradient(to right, #17aec9 0%, #94e699 50%, #17aec9 100%);
     padding: 15px;
     border-radius: 20px;
 }
@@ -158,3 +158,26 @@ header .modal-dialog {
 
 
 /* our services end */
+
+
+/* footer start */
+
+.footer {
+    padding: 20px 0px;
+}
+
+#footer #footer-widget {
+    padding-top: 60px;
+}
+
+.background-empty {
+    padding-top: 0px;
+}
+
+.spinning-circle-bottom {
+    right: -14%;
+    bottom: -50%;
+}
+
+
+/* footer end */
