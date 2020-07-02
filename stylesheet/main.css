@@ -101,13 +101,60 @@ header .modal-dialog {
 
 /* our services start */
 
-.nav-custom .modal.show .modal-dialog {
-    top: 30%;
-}
-
 .nav-custom .images-box-portfolio {
     cursor: pointer;
 }
+
+.portfolio-nav-custom .modal.fade {
+    opacity: 1;
+}
+
+.portfolio-nav-custom .modal.fade .modal-dialog {
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    transform: translate(0);
+    top: 30%;
+    max-width: 300px;
+    margin: auto;
+}
+
+.images-box-portfolio {
+    padding: 5px;
+}
+
+.portfolio-nav-custom .modal-content {
+    border-radius: 20px;
+}
+
+.portfolio-nav-custom .modal-body {
+    background: linear-gradient(to right, #17aec9 0%, #94e699 50%, #17aec9 100%);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.portfolio-nav-custom .modal-body h2 {
+    color: #fff;
+    font-family: "ZefaniStencil";
+}
+
+
+/* .services-layer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-top: 38%;
+}
+
+.services-layer i {
+    color: #fff;
+    padding: 19px;
+    background: linear-gradient( to right, #17aec97c 0%, #94e69978 50%, #17aec978 100%);
+    border-radius: 26px;
+}
+
+.images-box-portfolio:hover .services-layer i {
+    background: linear-gradient( 90deg, rgba(242, 105, 253, 0.5) 0%, rgba(117, 38, 215, 0.5) 100%);
+} */
 
 
 /* our services end */

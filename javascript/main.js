@@ -20,8 +20,88 @@
 (function($) {
     "use strict";
     // mek
-
-    // mek
+    function testAnim(x) {
+        $('.modal .modal-dialog').attr('class', 'modal-dialog  ' + x + '  animated');
+    };
+    $('#modal-owel1').on('show.bs.modal', function(e) {
+        var anim = "rotateInDownLeft";
+        testAnim(anim);
+    })
+    $('#modal-owel1').on('hide.bs.modal', function(e) {
+        var anim = "rotateOutDownLeft";
+        testAnim(anim);
+    })
+    $('#modal-owel2').on('show.bs.modal', function(e) {
+        var anim = "rotateInUpLeft";
+        testAnim(anim);
+    })
+    $('#modal-owel2').on('hide.bs.modal', function(e) {
+        var anim = "rotateOutUpleft";
+        testAnim(anim);
+    })
+    $('#modal-owel3').on('show.bs.modal', function(e) {
+        var anim = "rotateInUpRight";
+        testAnim(anim);
+    })
+    $('#modal-owel3').on('hide.bs.modal', function(e) {
+        var anim = "rotateOutUpRight";
+        testAnim(anim);
+    })
+    $('#modal-owel4').on('show.bs.modal', function(e) {
+        var anim = "rotateInDownRight";
+        testAnim(anim);
+    })
+    $('#modal-owel4').on('hide.bs.modal', function(e) {
+        var anim = "rotateOutDownRight";
+        testAnim(anim);
+    })
+    $('#modal-owel5').on('show.bs.modal', function(e) {
+        var anim = "lightSpeedIn";
+        testAnim(anim);
+    })
+    $('#modal-owel5').on('hide.bs.modal', function(e) {
+        var anim = "zoomOut";
+        testAnim(anim);
+    })
+    $('#modal-owel6').on('show.bs.modal', function(e) {
+        var anim = "lightSpeedIn";
+        testAnim(anim);
+    })
+    $('#modal-owel6').on('hide.bs.modal', function(e) {
+        var anim = "zoomOut";
+        testAnim(anim);
+    })
+    $('#modal-owel7').on('show.bs.modal', function(e) {
+        var anim = "lightSpeedIn";
+        testAnim(anim);
+    })
+    $('#modal-owel7').on('hide.bs.modal', function(e) {
+        var anim = "zoomOut";
+        testAnim(anim);
+    })
+    $('#modal-owel8').on('show.bs.modal', function(e) {
+        var anim = "lightSpeedIn";
+        testAnim(anim);
+    })
+    $('#modal-owel8').on('hide.bs.modal', function(e) {
+            var anim = "zoomOut";
+            testAnim(anim);
+        })
+        // for (var i = 1; i < 9; i++) {
+        //     function testAnim(x) {
+        //         $('.modal .modal-dialog').attr('class', 'modal-dialog  ' + x + '  animated');
+        //     };
+        //     $(`#modal-owel ${i}`).on('show.bs.modal', function(e) {
+        //         var anim = "lightSpeedIn";
+        //         testAnim(anim);
+        //     })
+        //     $(`#modal-owel ${i}`).on('hide.bs.modal', function(e) {
+        //         var anim = "zoomOut";
+        //         testAnim(anim);
+        //     })
+        //     console.log(`#modal-owel${i}`)
+        // }
+        // mek
 
     var headerFixed = function() {
         var top_height = $('.top-bar').height(),
