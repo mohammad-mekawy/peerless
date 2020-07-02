@@ -58,7 +58,7 @@ header .modal-dialog {
 .overlay {
     height: inherit;
     position: relative;
-    background: #00000054;
+    background-color: #00000054;
     z-index: 1;
 }
 
