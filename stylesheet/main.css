@@ -1,10 +1,5 @@
-@font-face {
-    font-family: "ZefaniStencil";
-    src: url(fonts/ZefaniStencil-Regular.otf);
-}
-
 body {
-    font-family: "ZefaniStencil";
+    font-family: "Work Sans";
 }
 
 #mainnav .menu>li>a {
@@ -66,11 +61,11 @@ header .modal-dialog {
 /* about us start*/
 
 .best-business-type1 .content .title {
-    font-family: "ZefaniStencil" !important;
+    font-family: "Work Sans" !important;
 }
 
 .modal-bio p {
-    font-family: "ZefaniStencil" !important;
+    font-family: "Work Sans" !important;
     font-size: 1.5rem;
     line-height: 1.5rem;
     letter-spacing: 1px;
@@ -79,6 +74,8 @@ header .modal-dialog {
 
 .modal-bio .modal-content {
     border-radius: 20px;
+    border: 0px;
+    background-color: transparent;
 }
 
 .modal-bio .modal-body {
@@ -124,6 +121,8 @@ header .modal-dialog {
 
 .portfolio-nav-custom .modal-content {
     border-radius: 20px;
+    border: 0px;
+    background-color: transparent;
 }
 
 .portfolio-nav-custom .modal-body {
@@ -134,7 +133,7 @@ header .modal-dialog {
 
 .portfolio-nav-custom .modal-body h2 {
     color: #fff;
-    font-family: "ZefaniStencil";
+    font-family: "Work Sans";
 }
 
 
@@ -162,22 +161,65 @@ header .modal-dialog {
 
 /* footer start */
 
-.footer {
+.ind-footer {
     padding: 20px 0px;
 }
 
-#footer #footer-widget {
+#footer .ind-footer-widget {
     padding-top: 60px;
 }
 
-.background-empty {
+.ind-background-empty {
     padding-top: 0px;
 }
 
-.spinning-circle-bottom {
+.ind-spinning-circle-bottom {
     right: -14%;
     bottom: -50%;
 }
 
 
 /* footer end */
+
+
+/* contact start */
+
+.breadcrumbs-wrap .title,
+.breadcrumbs-inner li a,
+.breadcrumbs-inner li span {
+    text-shadow: 0px 0px 20px black;
+}
+
+#modal-job1 {
+    top: 20%;
+}
+
+#modal-job1 .modal-dialog,
+#modal-job1 .modal-content {
+    border: 0px;
+    background-color: transparent;
+}
+
+#modal-job1 .contact-style1,
+#modal-job1 .modal-body,
+.modal-header .close {
+    padding: 0px;
+}
+
+.modal-header .close {
+    font-size: 2.5rem;
+    color: #17aec9;
+    opacity: 1;
+}
+
+.modal-header {
+    border-bottom: 0px;
+    padding: 0px;
+}
+
+#modal-job1 .contact-inside {
+    padding: 60px 66px;
+}
+
+
+/* contact end */

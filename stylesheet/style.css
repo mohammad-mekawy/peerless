@@ -30,11 +30,6 @@
 @import url("https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i");
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900");
 @import url("font-awesome.css");
-@font-face {
-    font-family: "ZefaniStencil";
-    src: url(fonts/ZefaniStencil-Regular.otf);
-}
-
 
 /* Reset
 -------------------------------------------------------------- */
@@ -1046,12 +1041,12 @@ input::-webkit-input-placeholder {
 #rev-slider1 ul li .title-slider {
     max-width: 500px;
     font-weight: 700 !important;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 #rev-slider1 ul li .get-connect-slider {
     font-weight: 300;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 #rev-slider1 ul li .btn-slider a {
@@ -1170,7 +1165,7 @@ input::-webkit-input-placeholder {
     line-height: 60px;
     font-weight: 600;
     margin-bottom: 9px;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 .banner-home-st2 p {
@@ -1202,8 +1197,9 @@ input::-webkit-input-placeholder {
 
 .banner-section {
     padding: 199px 0 128px 0;
-    background-image: url(../images/page-title/01.png);
+    background-image: url(../images/logo/diamants-blancs.png);
     background-size: cover;
+    background-position: center;
 }
 
 .page-title {
@@ -1216,7 +1212,7 @@ input::-webkit-input-placeholder {
     line-height: 60px;
     margin-bottom: 4px;
     text-transform: capitalize;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 .breadcrumbs-inner li {
@@ -1290,7 +1286,7 @@ input::-webkit-input-placeholder {
     font-size: 32px;
     font-weight: 600;
     line-height: 43px;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 .content-blog-single .description {
@@ -1756,7 +1752,7 @@ input::-webkit-input-placeholder {
     line-height: 30px;
     font-weight: 600;
     color: #010c39;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
@@ -2102,7 +2098,7 @@ input::-webkit-input-placeholder {
     font-size: 45px;
     line-height: 56px;
     font-weight: 700;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 .testimonial-outside .col-left {
@@ -2804,7 +2800,7 @@ input::-webkit-input-placeholder {
     line-height: 30px;
     font-weight: 600;
     color: #ffffff;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 .gallery-item .image-box .text-inside .title {
@@ -2882,7 +2878,7 @@ input::-webkit-input-placeholder {
     font-weight: 600;
     color: #010c39;
     margin-bottom: 11px;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
@@ -2965,7 +2961,7 @@ input::-webkit-input-placeholder {
     line-height: 30px;
     font-weight: 600;
     color: #010c39;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 .accordion .accordion-toggle .toggle-content {
@@ -3033,7 +3029,7 @@ input::-webkit-input-placeholder {
     line-height: 43px;
     color: #0c1b54;
     margin-bottom: 23px;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 .about-content p {
@@ -3195,7 +3191,7 @@ input::-webkit-input-placeholder {
     line-height: 56px;
     font-weight: 700;
     margin-bottom: 46px;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 .best-business-type1 .content .fl-btn a {
@@ -3228,7 +3224,7 @@ input::-webkit-input-placeholder {
     line-height: 55px;
     font-weight: 700;
     margin-bottom: 59px;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 .best-business-type2 .col-left {
@@ -3322,7 +3318,7 @@ input::-webkit-input-placeholder {
     font-weight: 600;
     color: #ffffff;
     padding-left: 19px;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 .business-box .description {
@@ -3385,7 +3381,7 @@ input::-webkit-input-placeholder {
     font-size: 38px;
     line-height: 30px;
     font-weight: 700;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
@@ -3398,7 +3394,7 @@ input::-webkit-input-placeholder {
     line-height: 30px;
     font-weight: 700;
     color: #0c1b54;
-    font-family: "ZefaniStencil", sans-serif;
+    font-family: "Work Sans", sans-serif;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
