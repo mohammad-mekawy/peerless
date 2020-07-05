@@ -184,24 +184,32 @@ header .modal-dialog {
 
 /* contact start */
 
-.breadcrumbs-wrap .title,
-.breadcrumbs-inner li a,
-.breadcrumbs-inner li span {
-    text-shadow: 0px 0px 20px black;
+.breadcrumbs-wrap .title {
+    background: #00000063;
+    width: fit-content;
+    margin: auto;
+    border-radius: 30px;
+    padding: 0px 20px;
 }
 
-#modal-job1 {
+.breadcrumbs-inner {
+    top: 123px;
+    position: relative;
+    border-top: 1px solid;
+}
+
+.modal-job {
     top: 20%;
 }
 
-#modal-job1 .modal-dialog,
-#modal-job1 .modal-content {
+.modal-job .modal-dialog,
+.modal-job .modal-content {
     border: 0px;
     background-color: transparent;
 }
 
-#modal-job1 .contact-style1,
-#modal-job1 .modal-body,
+.modal-job .contact-style1,
+.modal-job .modal-body,
 .modal-header .close {
     padding: 0px;
 }
@@ -217,9 +225,56 @@ header .modal-dialog {
     padding: 0px;
 }
 
-#modal-job1 .contact-inside {
+.modal-job .contact-inside {
     padding: 60px 66px;
+}
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100%;
+}
+
+.bootstrap-select>.dropdown-toggle {
+    padding: 17px 27px;
+    background-color: #fff;
+}
+
+.btn-light:not(:disabled):not(.disabled):active,
+.btn-light:not(:disabled):not(.disabled).active,
+.show>.btn-light.dropdown-toggle {
+    background-color: #fff;
+}
+
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select>select.mobile-device:focus+.dropdown-toggle,
+.bootstrap-select .dropdown-toggle:active,
+.bootstrap-select>select.mobile-device:active+.dropdown-toggle,
+.btn-light:not(:disabled):not(.disabled):active,
+.btn-light:not(:disabled):not(.disabled).active,
+.show>.btn-light.dropdown-toggle {
+    border: 1px solid #00cfdd;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: 0px auto -webkit-focus-ring-color !important;
+}
+
+.show>.btn-light.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0rem rgba(216, 217, 219, 0.5);
+}
+
+.contact-transform {
+    transform: translateY(10%);
 }
 
 
 /* contact end */
+
+
+/* services start */
+
+.widget-categories ul li {
+    width: 100%;
+}
+
+
+/* services end */

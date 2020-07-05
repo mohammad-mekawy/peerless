@@ -23,6 +23,30 @@
     function testAnim(x) {
         $('.modal .modal-dialog').attr('class', 'modal-dialog  ' + x + '  animated');
     };
+    $('#modal-in').on('show.bs.modal', function(e) {
+        var anim = "zoomIn";
+        testAnim(anim);
+    })
+    $('#modal-in').on('hide.bs.modal', function(e) {
+        var anim = "zoomOut";
+        testAnim(anim);
+    })
+    $('#modal-up').on('show.bs.modal', function(e) {
+        var anim = "zoomIn";
+        testAnim(anim);
+    })
+    $('#modal-up').on('hide.bs.modal', function(e) {
+        var anim = "zoomOut";
+        testAnim(anim);
+    })
+    $('#modal-bio').on('show.bs.modal', function(e) {
+        var anim = "flipInY";
+        testAnim(anim);
+    })
+    $('#modal-bio').on('hide.bs.modal', function(e) {
+        var anim = "flipOutY";
+        testAnim(anim);
+    })
     $('#modal-owel1').on('show.bs.modal', function(e) {
         var anim = "rotateInDownLeft";
         testAnim(anim);
@@ -84,24 +108,37 @@
         testAnim(anim);
     })
     $('#modal-owel8').on('hide.bs.modal', function(e) {
-            var anim = "zoomOut";
-            testAnim(anim);
-        })
-        // for (var i = 1; i < 9; i++) {
-        //     function testAnim(x) {
-        //         $('.modal .modal-dialog').attr('class', 'modal-dialog  ' + x + '  animated');
-        //     };
-        //     $(`#modal-owel ${i}`).on('show.bs.modal', function(e) {
-        //         var anim = "lightSpeedIn";
-        //         testAnim(anim);
-        //     })
-        //     $(`#modal-owel ${i}`).on('hide.bs.modal', function(e) {
-        //         var anim = "zoomOut";
-        //         testAnim(anim);
-        //     })
-        //     console.log(`#modal-owel${i}`)
-        // }
-        // mek
+        var anim = "zoomOut";
+        testAnim(anim);
+    })
+
+    function testAnim2(x) {
+        $('.modal .modal-dialog').attr('class', 'modal-dialog  modal-lg ' + x + '  animated');
+    };
+    $('.modal-job').on('show.bs.modal', function(e) {
+        var anim = "lightSpeedIn";
+        testAnim2(anim);
+    })
+    $('.modal-job').on('hide.bs.modal', function(e) {
+        var anim = "zoomOut";
+        testAnim2(anim);
+    })
+
+    // for (var i = 1; i < 9; i++) {
+    //     function testAnim(x) {
+    //         $('.modal .modal-dialog').attr('class', 'modal-dialog  ' + x + '  animated');
+    //     };
+    //     $(`#modal-owel ${i}`).on('show.bs.modal', function(e) {
+    //         var anim = "lightSpeedIn";
+    //         testAnim(anim);
+    //     })
+    //     $(`#modal-owel ${i}`).on('hide.bs.modal', function(e) {
+    //         var anim = "zoomOut";
+    //         testAnim(anim);
+    //     })
+    //     console.log(`#modal-owel${i}`)
+    // }
+    // mek
 
     var headerFixed = function() {
         var top_height = $('.top-bar').height(),
@@ -238,7 +275,7 @@
                     nav: nav,
                     navigation: true,
                     pagination: true,
-                    autoplay: false,
+                    autoplay: true,
                     autoplayHoverPause: true,
                     autoplayTimeout: 3000,
                     // try

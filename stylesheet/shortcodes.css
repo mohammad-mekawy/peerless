@@ -30,10 +30,11 @@
 
 .title-section .sub-heading.color-two {
     color: #a841e6;
+    font-size: 2rem;
 }
 
 .title-section .flat-title {
-    font-size: 45px;
+    font-size: 43px;
     line-height: 53px;
     font-weight: 700;
     color: #010c39;
