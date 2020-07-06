@@ -124,20 +124,17 @@
         testAnim2(anim);
     })
 
-    // for (var i = 1; i < 9; i++) {
-    //     function testAnim(x) {
-    //         $('.modal .modal-dialog').attr('class', 'modal-dialog  ' + x + '  animated');
-    //     };
-    //     $(`#modal-owel ${i}`).on('show.bs.modal', function(e) {
-    //         var anim = "lightSpeedIn";
-    //         testAnim(anim);
-    //     })
-    //     $(`#modal-owel ${i}`).on('hide.bs.modal', function(e) {
-    //         var anim = "zoomOut";
-    //         testAnim(anim);
-    //     })
-    //     console.log(`#modal-owel${i}`)
-    // }
+    for (var i = 2; i <= 8; i++) {
+        $("#service-" + i).on("click", function() {
+            localStorage.setItem($(this).attr("id"), 'clicked')
+            this.href = "services.html";
+        });
+        if (localStorage.getItem('service-' + i) === 'clicked') {
+            $('#tab-' + i).addClass("show active").siblings().removeClass("show active");
+            $('#tab-l-' + i).addClass('active').parent().siblings().find("a").removeClass('active');
+        }
+        localStorage.removeItem('service-' + i);
+    }
     // mek
 
     var headerFixed = function() {
@@ -154,14 +151,20 @@
             if (top_height > 0) {
                 if ($(window).scrollTop() >= top_height + hd_height + 20) {
                     header.addClass('header-sticky');
+                    $('.btn-danger').css('background-image', 'linear-gradient( #7526d7 0%, #f269fd 50%, #7526d7 100%)')
                 } else {
                     header.removeClass('header-sticky');
+                    $('.btn-danger').css('background-image', 'linear-gradient(to right, #7526d7 0%, #f269fd 50%, #7526d7 100%)')
+
                 }
             } else {
                 if ($(window).scrollTop() >= hd_height) {
                     header.addClass('header-sticky');
+                    $('.btn-danger').css('background-image', 'linear-gradient( #7526d7 0%, #f269fd 50%, #7526d7 100%)')
                 } else {
                     header.removeClass('header-sticky');
+                    $('.btn-danger').css('background-image', 'linear-gradient(to right, #7526d7 0%, #f269fd 50%, #7526d7 100%)')
+
                 }
             }
         });
@@ -278,10 +281,9 @@
                     autoplay: true,
                     autoplayHoverPause: true,
                     autoplayTimeout: 3000,
-                    // try
                     slideTransition: 'linear',
                     autoplaySpeed: 3000,
-                    // try
+
                     responsive: {
                         0: {
                             items: item4

@@ -1153,6 +1153,8 @@ input::-webkit-input-placeholder {
 /* banner-section
 -------------------------------------------------------------- */
 
+
+/* 
 .banner-home-st2 {
     padding: 289px 0 217px 0;
     background-image: url(../images/transparent-head/03.png);
@@ -1193,9 +1195,16 @@ input::-webkit-input-placeholder {
     top: 18.7%;
     right: 10.1%;
     position: absolute;
-}
+} */
 
 .banner-section {
+    padding: 199px 0 128px 0;
+    background-image: url(../images/logo/diamants-blancs.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-section-contact {
     padding: 199px 0 128px 0;
     background-image: url(../images/logo/diamants-blancs.png);
     background-size: cover;

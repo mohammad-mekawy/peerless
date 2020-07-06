@@ -14,7 +14,7 @@ body {
 }
 
 .btn-danger {
-    background-color: blueviolet !important;
+    background-image: linear-gradient( to right, #7526d7 0%, #f269fd 50%, #7526d7 100%);
     border: none;
 }
 
@@ -50,6 +50,10 @@ header .modal-dialog {
     top: 30%;
 }
 
+header .modal-body {
+    background-image: linear-gradient( to right, #7526d7 0%, #f269fd 50%, #7526d7 100%);
+}
+
 .overlay {
     height: inherit;
     position: relative;
@@ -79,7 +83,7 @@ header .modal-dialog {
 }
 
 .modal-bio .modal-body {
-    background: linear-gradient(to right, #17aec9 0%, #94e699 50%, #17aec9 100%);
+    background-image: linear-gradient( to right, #7526d7 0%, #f269fd 50%, #7526d7 100%);
     padding: 15px;
     border-radius: 20px;
 }
@@ -119,14 +123,14 @@ header .modal-dialog {
     padding: 5px;
 }
 
-.portfolio-nav-custom .modal-content {
+.modal-content {
     border-radius: 20px;
     border: 0px;
     background-color: transparent;
 }
 
-.portfolio-nav-custom .modal-body {
-    background: linear-gradient(to right, #17aec9 0%, #94e699 50%, #17aec9 100%);
+.modal-body {
+    background-image: linear-gradient( to right, #7526d7 0%, #f269fd 50%, #7526d7 100%);
     padding: 15px;
     border-radius: 20px;
 }
@@ -154,6 +158,24 @@ header .modal-dialog {
 .images-box-portfolio:hover .services-layer i {
     background: linear-gradient( 90deg, rgba(242, 105, 253, 0.5) 0%, rgba(117, 38, 215, 0.5) 100%);
 } */
+
+.btn-primary {
+    background-image: linear-gradient( to right, #17aec9 0%, #94e699 50%, #17aec9 100%);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:hover:active {
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 0px;
+    box-shadow: 0 0 0 0rem rgba(38, 143, 255, 0.5);
+}
 
 
 /* our services end */
