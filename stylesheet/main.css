@@ -1,6 +1,35 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Work Sans";
 }
+
+
+/* scroll bar start */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #7526d7 0%, #f269fd 50%, #7526d7 100%);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: linear-gradient(to right, #7526d7 0%, #f269fd 50%, #7526d7 100%);
+}
+
+
+/* scroll bar end */
 
 #mainnav .menu>li>a {
     padding-right: 25px;
