@@ -38,7 +38,8 @@
     -webkit-transform: translate3d(0, 0, 0)
 }
 
-.owl-carousel .owl-item {
+.owl-carousel .owl-item,
+.owl-carousel .owl-wrapper {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
@@ -61,7 +62,7 @@
     display: none
 }
 
-
+.no-js .owl-carousel,
 .owl-carousel.owl-loaded {
     display: block
 }

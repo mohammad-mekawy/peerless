@@ -10,7 +10,7 @@
   font-display: block;
 }
 
-[class^="icon-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -24,9 +24,55 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.icon-kl:before {
+  content: "\e910";
+}
+.icon-user:before {
+  content: "\e90f";
+}
+.icon-digital-marketing:before {
+  content: "\e90d";
+}
+.icon-clock:before {
+  content: "\e90e";
+}
+.icon-analysis:before {
+  content: "\e900";
+}
+.icon-coffee-cup:before {
+  content: "\e901";
+}
+.icon-connection:before {
+  content: "\e902";
+}
+.icon-download:before {
+  content: "\e903";
+}
+.icon-left-arrow:before {
+  content: "\e904";
+}
 .icon-play-button:before {
   content: "\e905";
 }
+.icon-right-arrow:before {
+  content: "\e906";
+}
+.icon-support:before {
+  content: "\e907";
+}
 .icon-target:before {
   content: "\e908";
+}
+.icon-tax:before {
+  content: "\e909";
+}
+.icon-telephone:before {
+  content: "\e90a";
+}
+.icon-text-quotes:before {
+  content: "\e90b";
+}
+.icon-trophy:before {
+  content: "\e90c";
 }
