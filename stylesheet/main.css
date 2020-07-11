@@ -15,6 +15,10 @@ body {
     outline: none !important;
 }
 
+.scrollable {
+    overflow-y: scroll;
+}
+
 
 /* scroll bar start */
 
@@ -109,6 +113,8 @@ header .modal-body {
 
 .modal-bio .modal-dialog {
     top: 20%;
+    max-width: 90%;
+    margin: auto;
 }
 
 .modal-bio .v-cover {
