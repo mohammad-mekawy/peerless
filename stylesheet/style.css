@@ -27,9 +27,6 @@
 * switcher-container
 */
 
-@import url("https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i");
-@import url("https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900");
-@import url("font-awesome.css");
 
 /* Reset
 -------------------------------------------------------------- */
@@ -248,7 +245,7 @@ input::-moz-focus-inner {
 }
 
 body {
-    font: 16px/28px "Karla", sans-serif;
+    font: 16px/28px "Work Sans", sans-serif;
     color: #787878;
     font-weight: 400;
     overflow: hidden;
@@ -1547,7 +1544,7 @@ input::-webkit-input-placeholder {
 }
 
 .sw-even a {
-    font-family: "Karla", sans-serif;
+    font-family: "Work Sans", sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     line-height: 40px;
